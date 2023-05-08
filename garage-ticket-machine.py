@@ -24,7 +24,18 @@ class ParkingGarage():
 # If the payment variable is not empty then (meaning the ticket has been paid) -> display a message to the user that their ticket has been paid and they have 15mins to leave
 # This should update the "currentTicket" dictionary key "paid" to True
 
+
+
+# GABE: "LEAVE GARAGE" START HERE BELOW------------------------------------
+
+
     def leave_garage(self):
+        if self.current_ticket['paid'] == True:     # Check *IF* the ticket has been paid
+            print("Thank You, have a nice day!")    # DISPLAY message
+
+
+
+
         
 
 #- If the ticket has been paid, display a message of "Thank You, have a nice day"
