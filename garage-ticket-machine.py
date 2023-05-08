@@ -31,3 +31,5 @@ class ParkingGarage():
 # - Once paid, display message "Thank you, have a nice day!"
 # - Update parkingSpaces list to increase by 1 (meaning add to the parkingSpaces list)
 # - Update tickets list to increase by 1 (meaning add to the tickets list)
+
+ParkingGarage()
