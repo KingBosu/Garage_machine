@@ -30,11 +30,21 @@ class ParkingGarage():
 
 
     def leave_garage(self):
+#####GABE LINE BREAK TO HELP READ######
         if self.current_ticket['paid'] == True:     # Check *IF* the ticket has been paid
             print("Thank You, have a nice day!")    # DISPLAY message
-
-
-
+            self.parking_space += 1                 # INCREASE the parking space by 1
+            self.ticket += 1                        # INCREASE the ticket by 1
+#####GABE LINE BREAK TO HELP READ######
+        else: 
+            payment = input("Please pay for your ticket: ")     #ASK for payment
+            if payment == "0":
+                print("Thank You, have a nice day!")    # DISPLAY message
+                self.parking_space += 1                 # INCREASE the parking space by 1
+                self.ticket += 1                        # INCREASE the ticket by 1
+                self.current_ticket['paid'] = True      # UPDATE the current ticket to PAID
+#####GABE LINE BREAK TO HELP READ######
+        else:
 
         
 
