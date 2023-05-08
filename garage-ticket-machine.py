@@ -45,8 +45,8 @@ class ParkingGarage():
                 self.current_ticket['paid'] = True      # UPDATE the current ticket to PAID
 #####GABE LINE BREAK TO HELP READ######
         else:
+        print("Payment not accepted. Please try again.")
 
-        
 
 #- If the ticket has been paid, display a message of "Thank You, have a nice day"
 # - If the ticket has not been paid, display an input prompt for payment
@@ -54,4 +54,6 @@ class ParkingGarage():
 # - Update parkingSpaces list to increase by 1 (meaning add to the parkingSpaces list)
 # - Update tickets list to increase by 1 (meaning add to the tickets list)
 
-ParkingGarage()
+
+
+        ParkingGarage()
